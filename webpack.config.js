@@ -7,7 +7,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:3002/",
+    // publicPath: "http://localhost:3002/",
+    publicPath: "https://main.doxxr994hjh.amplifyapp.com/"
   },
 
   resolve: {
